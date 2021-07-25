@@ -1,14 +1,18 @@
 # vue-with-tailwind-css-sandbox
 
-## Project setup
+## Project Setup
+
 ```
-yarn install
+docker-compose up setup
 ```
 
-### Compiles and hot-reloads for development
+## Start Hosting
+
 ```
-yarn serve
+docker-compose up -d app 
 ```
+
+access to http://localhost:8080
 
 ### Compiles and minifies for production
 ```
